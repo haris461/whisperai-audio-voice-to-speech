@@ -3,3 +3,6 @@ whisper
 sounddevice 
 wave
 pyaudio
+torch
+torchvision
+torchaudio
