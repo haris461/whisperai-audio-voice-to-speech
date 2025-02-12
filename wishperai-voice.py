@@ -11,7 +11,7 @@ import numpy as np
 import tempfile
 import os
 import wave
-
+import audio_config
 # Function to record audio
 def record_audio(duration=5, samplerate=44100):
     st.info("Recording... Speak now!")
