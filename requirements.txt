@@ -2,3 +2,4 @@ streamlit
 whisper
 sounddevice 
 wave
+pyaudio
