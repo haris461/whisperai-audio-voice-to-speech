@@ -2,7 +2,7 @@ import sounddevice as sd
 import numpy as np
 
 fs = 44100  # Sample rate
-duration = 3  # Record for 3 seconds
+duration = 5 # Record for 3 seconds
 
 print("Recording...")
 audio = sd.rec(int(duration * fs), samplerate=fs, channels=1, dtype=np.int16)
