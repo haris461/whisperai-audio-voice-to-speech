@@ -9,31 +9,6 @@ import numpy as np
 import tempfile
 import os
 import wave
-import pyaudio
-
-# Apply custom CSS for black background and yellow text
-st.markdown("""
-    <style>
-        body {
-            background-color: black;
-            color: yellow;
-        }
-        .stApp {
-            background-color: black;
-        }
-        .stMarkdown, .stTitle, .stText, .stSubheader, .stWrite {
-            color: yellow !important;
-        }
-        .stButton > button {
-            background-color: yellow !important;
-            color: black !important;
-            font-weight: bold;
-        }
-        .stAudio {
-            background-color: black !important;
-        }
-    </style>
-""", unsafe_allow_html=True)
 
 # Function to record audio
 def record_audio(duration=5, samplerate=44100):
@@ -91,4 +66,3 @@ if uploaded_file is not None:
         st.subheader("📝 Transcription:")
         st.write(transcription)
         os.remove(temp_audio_path)
-
