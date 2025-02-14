@@ -35,8 +35,8 @@ def transcribe_audio(audio_path):
     return result["text"]
 
 # Streamlit UI
-st.set_page_config(page_title="Live Speech-to-Text", page_icon="🎙️", layout="centered")
-st.title("🎙️ Live Speech-to-Text Converter")
+st.set_page_config(page_title="Echo_Script", page_icon="🎙️", layout="centered")
+st.title("🎙️ Echo_Script")
 st.markdown("Record your voice or upload an audio file to get the transcription.")
 
 # Record button
